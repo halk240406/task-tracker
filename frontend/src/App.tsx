@@ -1,0 +1,19 @@
+import './App.css'
+
+const appTitle: string = 'Трекер задач'
+
+export default function App() {
+  return (
+    <main className="app">
+      <header>
+        <h1>{appTitle}</h1>
+        <p>Личные задачи со статусами, сроками и приоритетами.</p>
+      </header>
+
+      <section aria-labelledby="items-title">
+        <h2 id="items-title">Мои задачи</h2>
+        <p>Здесь появится список ваших задач.</p>
+      </section>
+    </main>
+  )
+}
